@@ -11,6 +11,8 @@ public class input {
         System.out.println("your age is :"+ age + " and Number is :"+ num);
         //string input 
         System.out.println("Enter your name :");
-        String name = sc.next();
+        String nameF = sc.nextLine();
+
+        sc.close();
     }
 }
